@@ -1,93 +1,246 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nazim Uddin Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Nazim Uddin - GIS Analyst, Applied Geoinformatics MSc student, researcher in remote sensing, GIS, water resources, and machine learning." />
+  <meta name="keywords" content="Nazim Uddin, GIS Analyst, Remote Sensing, Geoinformatics, Machine Learning, Google Earth Engine, ArcGIS, QGIS" />
+  <meta name="author" content="Nazim Uddin" />
+  <title>Nazim Uddin | GIS & Remote Sensing Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-
-  <header class="hero">
-    <img src="images/banner.jpg" alt="Banner">
-    <div class="hero-text">
-      <h1>Nazim Uddin</h1>
-      <p>MSc Applied Geoinformatics | GIS & Remote Sensing | Machine Learning</p>
-    </div>
+  <header class="site-header" id="top">
+    <nav class="navbar" aria-label="Main navigation">
+      <a class="logo" href="#top">Nazim<span>Uddin</span></a>
+      <button class="nav-toggle" id="navToggle" aria-label="Open navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#publications">Publications</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">🌙</button>
+    </nav>
   </header>
 
-  <nav class="main-nav">
-    <a href="#about">About</a>
-    <a href="#experience">Experience</a>
-    <a href="#skills">Skills</a>
-    <a href="#projects">Projects</a>
-    <a href="#contact">Contact</a>
-  </nav>
+  <main>
+    <section class="hero section-padding">
+      <div class="container hero-grid">
+        <div class="hero-content reveal">
+          <p class="eyebrow">GIS • Remote Sensing • Applied Geoinformatics</p>
+          <h1>Hi, I am <span>Nazim Uddin</span></h1>
+          <p class="hero-text">
+            MSc student in Applied Geoinformatics at the University of Salzburg and GIS professional with experience in spatial data management, satellite image analysis, geodatabase development, Python-based GIS automation, and thematic mapping.
+          </p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#projects">View Projects</a>
+            <a class="btn secondary" href="assets/Nazim_Uddin_CV.pdf" target="_blank" rel="noopener">Download CV</a>
+          </div>
+          <div class="quick-info" aria-label="Quick contact information">
+            <span>📍 Salzburg, Austria</span>
+            <a href="mailto:nazim.uddin@stud.plus.ac.at">✉️ nazim.uddin@stud.plus.ac.at</a>
+            <a href="https://www.linkedin.com/in/nazim--uddin" target="_blank" rel="noopener">🔗 LinkedIn</a>
+          </div>
+        </div>
+        <div class="hero-photo reveal">
+          <div class="photo-card">
+            <img src="images/profile.jpg" alt="Portrait of Nazim Uddin" />
+          </div>
+        </div>
+      </div>
+    </section>
 
-  <section id="about">
-    <h2>Education</h2>
-    <p>MSc in Applied Geoinformatics at University of Salzburg, Austria.(2026- Ongoing) </p>
-<p>MSc in Physical Geography at University of Dhaka, Bangladesh (2022).</p>
-<p>BSc in Geography and Environment at University of Dhaka, Bangladesh (2021).</p>
-<p><h3>Research interests:</h3> Fluvial Environment, Water Resources, Machine Learning in Remote Sensing.</p>
-  </section>
+    <section id="about" class="section-padding">
+      <div class="container two-column">
+        <div class="section-title reveal">
+          <p class="eyebrow">About Me</p>
+          <h2>Geospatial researcher focused on practical environmental solutions</h2>
+        </div>
+        <div class="reveal">
+          <p>
+            I work across GIS, remote sensing, hydrology, environmental monitoring, and data-driven geospatial analysis. My academic and professional work focuses on using satellite imagery, machine learning, GIS modelling, and field-based evidence to understand wetlands, oil spills, floods, river dynamics, land-use change, and water-resource challenges.
+          </p>
+          <div class="interest-tags">
+            <span>Fluvial Environment</span>
+            <span>Water Resources</span>
+            <span>Remote Sensing</span>
+            <span>Machine Learning</span>
+            <span>Geospatial Analysis</span>
+          </div>
+        </div>
+      </div>
+    </section>
 
-  <section id="experience">
-    <h2>Experience</h2>
-    <div class="card">
-      <h3>Assistant GIS Specialist</h3>
-      <p>Bangladesh Rural Electrification Board | Jun 2025 – Mar 2026</p>
-      <ul>
-        <li>Spatial data management, geodatabase development, thematic mapping.</li>
-        <li>Staff training in geospatial tools.</li>
-      </ul>
+    <section id="education" class="section-padding alt-bg">
+      <div class="container">
+        <div class="section-title centered reveal">
+          <p class="eyebrow">Academic Background</p>
+          <h2>Education</h2>
+        </div>
+        <div class="timeline reveal">
+          <article class="timeline-item">
+            <span class="timeline-date">Mar 2026 – Ongoing</span>
+            <h3>MSc in Applied Geoinformatics</h3>
+            <p>University of Salzburg, Austria</p>
+          </article>
+          <article class="timeline-item">
+            <span class="timeline-date">2022</span>
+            <h3>MS in Geography and Environment</h3>
+            <p>University of Dhaka, Bangladesh | CGPA: 3.82/4.00</p>
+            <p class="small">Thesis: Detecting and Simulating Oil Spills by Using GIS and Remote Sensing Techniques: A Case of the Eastern Coastal Area, Bangladesh.</p>
+          </article>
+          <article class="timeline-item">
+            <span class="timeline-date">2021</span>
+            <h3>BSc Honours in Geography and Environment</h3>
+            <p>University of Dhaka, Bangladesh | CGPA: 3.49/4.00</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section-padding">
+      <div class="container">
+        <div class="section-title centered reveal">
+          <p class="eyebrow">Career</p>
+          <h2>Professional Experience</h2>
+        </div>
+        <div class="cards two-cards reveal">
+          <article class="card">
+            <div class="card-top">
+              <h3>Assistant GIS Specialist</h3>
+              <span>Jun 2025 – Mar 2026</span>
+            </div>
+            <p class="company">Bangladesh Rural Electrification Board, Dhaka</p>
+            <p>Worked on spatial data management, geodatabase development, thematic mapping for infrastructure planning, GIS-based analysis, project implementation support, and geospatial staff training.</p>
+          </article>
+          <article class="card">
+            <div class="card-top">
+              <h3>GIS Analyst</h3>
+              <span>Apr 2024 – May 2025</span>
+            </div>
+            <p class="company">Institute of Water Modelling, Dhaka</p>
+            <p>Processed and analysed satellite imagery, automated GIS workflows with Python scripts, handled georeferencing and geodatabases, designed map layouts, supported field visits, and collaborated with project teams.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section-padding alt-bg">
+      <div class="container">
+        <div class="section-title centered reveal">
+          <p class="eyebrow">Technical Strength</p>
+          <h2>Skills & Tools</h2>
+        </div>
+        <div class="skill-grid reveal">
+          <div class="skill-box">
+            <h3>GIS & Remote Sensing</h3>
+            <p>ArcGIS, QGIS, ERDAS Imagine, SNAP, Google Earth Engine, thematic mapping, georeferencing, satellite image analysis.</p>
+          </div>
+          <div class="skill-box">
+            <h3>Programming & Data</h3>
+            <p>Python, ArcPy, Rasterio, MySQL, SPSS, machine learning, deep learning, data science workflows.</p>
+          </div>
+          <div class="skill-box">
+            <h3>Languages</h3>
+            <p>Bengali, English, Hindi.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section-padding">
+      <div class="container">
+        <div class="section-title centered reveal">
+          <p class="eyebrow">Selected Work</p>
+          <h2>Projects & Field Works</h2>
+          <p class="section-note">Replace the image files inside the <strong>images</strong> folder with your own project images. Keep the same file names or update them in <strong>script.js</strong>.</p>
+        </div>
+        <div class="project-grid reveal" id="projectGrid"></div>
+      </div>
+    </section>
+
+    <section id="publications" class="section-padding alt-bg">
+      <div class="container">
+        <div class="section-title centered reveal">
+          <p class="eyebrow">Research Output</p>
+          <h2>Publications</h2>
+        </div>
+        <div class="publication-list reveal">
+          <article>
+            <h3>Wetland Change and its Impacts on Livelihood using Machine Learning Algorithms in Chanda Beel, Gopalganj, Bangladesh</h3>
+            <p>Uddin, N., Hasan, M., Sheikh, Md. N. and Ahmed, A. (2026). <em>Next Research</em>, 101556. DOI: 10.1016/j.nexres.2026.101556.</p>
+          </article>
+          <article>
+            <h3>Detecting and Simulating Oil Spills by Using GIS and Remote Sensing Techniques</h3>
+            <p>Uddin, Nazim and Ahmed, Asib. Under review. Available at SSRN.</p>
+          </article>
+          <article>
+            <h3>Flood Susceptibility Prediction Using Machine Learning under Hydro-Climatic Extremes and Land Use Dynamics</h3>
+            <p>Hasan, Mehedi, Uddin, Nazim, Misty, Maliha Sanzana and Hoque, Muhammad Al-Amin. Under review.</p>
+          </article>
+          <article>
+            <h3>Machine Learning-Driven Flood Susceptibility Mapping in the Coastal Frontier of Feni District, Bangladesh</h3>
+            <p>Misty, Maliha Sanzana, Hasan, Mehedi, Nayem, A. M. M. Jubayer, Hoque, Muhammad Al-Amin, Uddin, Nazim and Pradhan, Biswajeet. Under review.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="training" class="section-padding">
+      <div class="container two-column">
+        <div class="section-title reveal">
+          <p class="eyebrow">Development</p>
+          <h2>Training, Awards & Leadership</h2>
+        </div>
+        <div class="stacked-list reveal">
+          <article>
+            <h3>Professional Development</h3>
+            <p>360-hour Certificate Course on Machine Learning and Data Science; Machine Learning for Geospatial Data; Introduction to GIS Programming by the University of Toronto.</p>
+          </article>
+          <article>
+            <h3>Workshops</h3>
+            <p>Green Skills for a Sustainable Future; Applications of Satellite Generated Atmospheric and Climatic Datasets.</p>
+          </article>
+          <article>
+            <h3>Awards</h3>
+            <p>National Science and Technology Fellowship for Research; One Bank Scholarship for Higher Secondary and Graduate Students.</p>
+          </article>
+          <article>
+            <h3>Leadership</h3>
+            <p>President of Science Students Association of Feni; Vice President of Dhaka University Student Association of Feni; organizer and volunteer in environmental and student organizations.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section-padding contact-section">
+      <div class="container contact-card reveal">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2>Let’s connect for GIS, remote sensing, and environmental research opportunities.</h2>
+          <p>Email me directly or visit my LinkedIn profile. I am open to research collaboration, geospatial analysis projects, and academic opportunities.</p>
+        </div>
+        <div class="contact-actions">
+          <a class="btn primary" href="mailto:nazim.uddin@stud.plus.ac.at">Email Me</a>
+          <a class="btn secondary" href="https://www.linkedin.com/in/nazim--uddin" target="_blank" rel="noopener">LinkedIn</a>
+          <a class="btn secondary" href="assets/Nazim_Uddin_CV.pdf" target="_blank" rel="noopener">CV PDF</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p>© <span id="year"></span> Nazim Uddin. All rights reserved.</p>
+      <a href="#top">Back to top ↑</a>
     </div>
-    <div class="card">
-      <h3>GIS Analyst</h3>
-      <p>Institute of Water Modelling (IWM) | Apr 2024 – May 2025</p>
-      <ul>
-        <li>Processed and analyzed satellite imagery.</li>
-        <li>Developed Python scripts for GIS workflow automation.</li>
-      </ul>
-    </div>
-  </section>
-
-  <section id="skills">
-    <h2>Skills</h2>
-    <ul>
-      <li>ArcGIS, QGIS, ERDAS Imagine, SNAP, Google Earth Engine</li>
-      <li>Python (Arcpy, Rasterio), MySQL, SPSS, Machine Learning, Deep Learning</li>
-      <li>Languages: Bengali, English, Hindi</li>
-    </ul>
-  </section>
-
-  <section id="projects">
-    <h2>Projects</h2>
-    <div class="projects-grid">
-      <a href="projects/oil_spill_monitoring.html" class="project-card">
-        <img src="images/project1.jpg" alt="Oil Spill Monitoring">
-        <h3>Oil Spill Monitoring Survey</h3>
-      </a>
-      <a href="projects/landuse_survey.html" class="project-card">
-        <img src="images/project2.jpg" alt="Landuse Survey">
-        <h3>Landuse Survey</h3>
-      </a>
-      <a href="projects/agricultural_adjustment.html" class="project-card">
-        <img src="images/project3.jpg" alt="Agricultural Adjustment">
-        <h3>Agricultural Adjustment</h3>
-      </a>
-    </div>
-  </section>
-
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:nazim.uddin@stud.plus.ac.at">nazim.uddin@stud.plus.ac.at</a></p>
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/nazim--uddin">Nazim Uddin</a></p>
-  </section>
-
-  <footer>
-    <p>© 2026 Nazim Uddin </p>
   </footer>
 
+  <script src="script.js"></script>
 </body>
 </html>
